@@ -1,0 +1,58 @@
+.card {
+  border: 1px solid rgb(143, 142, 142);
+  border-radius: 10px;
+  width: 400px;
+  padding: 10px 25px;
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+.dots-icon-div {
+  text-align: right;
+  font-size: 22px;
+  height: 0;
+}
+.card-div {
+  width: 400px;
+  height: max-content;
+}
+.card-div > .flex-div {
+  display: flex;
+  gap: 10px;
+}
+.jobtitle:hover {
+  text-decoration: underline;
+}
+.highlight {
+  background-color: #f0f0f0;
+  color: #575757;
+  padding: 5px;
+  font-weight: 600;
+  width: fit-content;
+  margin: 5px 0px;
+}
+.ialbl-p {
+  margin: 5px 0px;
+}
+.location-p {
+  margin-bottom: 5px;
+}
+.snippet-p {
+  margin: 0px;
+  font-size: 14px;
+  margin-left: 10px;
+  color: #858585;
+}
+.date-p {
+  color: #858585;
+}
+.date-p > span {
+  color: #5a5a5a;
+  font-weight: 600;
+}
+.card > .toggle-div {
+  min-width: max-content;
+  position: absolute;
+  left: 580px;
+  background-color: white;
+  margin-top: 20px;
+}

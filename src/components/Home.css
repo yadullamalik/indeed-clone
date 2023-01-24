@@ -1,0 +1,116 @@
+.search-div,
+.search-div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-div {
+  gap: 20px;
+  padding-top: 60px;
+}
+.what-div,
+.where-div {
+  background-color: #edf2f7;
+  color: #1a202c;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border: 0.5px solid #e5e7eb;
+  border-right: none;
+}
+.search-div > div > input {
+  padding: 10px;
+  width: 280px;
+  font-size: 16px;
+  border: 0.5px solid #e5e7eb;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.search-icon {
+  position: absolute;
+  top: 132px;
+  left: 560px;
+}
+.findjobs-btn {
+  padding: 10px;
+  background-color: #385898;
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding-right: 35px;
+  padding-left: 20px;
+  border-radius: 8px;
+}
+.search-icon-2 {
+  position: absolute;
+  top: 132px;
+  right: 215px;
+  font-size: 20px;
+  color: white;
+}
+.post-center-div {
+  text-align: center;
+  margin-top: 20px;
+}
+.blue-span {
+  color: #2b6cb0;
+  font-weight: 700;
+  font-size: 18px;
+}
+.filters-div {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+}
+.select {
+  background-color: #d4d4d4;
+  color: #000000;
+  border: none;
+  padding: 10px;
+  width: 150px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.select:hover {
+  background-color: #dae3f0;
+}
+.hr-line {
+  background-color: #e6eefe;
+  height: 1px;
+  margin-top: 15px;
+}
+.jobfeed-div {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  border-bottom: 5px solid #031475;
+  padding: 20px 0px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.jobfeed-div > span:nth-last-child(1) {
+  padding: 10px 5px;
+  background-color: #718096;
+  color: white;
+  font-size: 18px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.jobdata-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 100px;
+  padding-top: 20px;
+}
+.stick-div {
+  position: sticky;
+  top: 0;
+  right: 150px;
+  padding-top: 20px;
+}
